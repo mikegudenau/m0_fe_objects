@@ -70,7 +70,7 @@ console.log(Object.values(emailInfo));
 // Check out the following example of an array of Instagram posts:
 
 
-// var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
+var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 
 // An Array of Objects is probably more realistic. Objects are a data type that's great
@@ -95,8 +95,8 @@ posts = [
   }
 ];
 
-// console.log(posts);
-// console.log(posts[0]);
+console.log(posts);
+console.log(posts[0]); // this will log the first object in the array (at the 0th index)
 
 
 // The code snippet above shows an Array with 2 elements. Each element in the Array is a 
@@ -108,3 +108,29 @@ posts = [
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+var emailInfo2 = [
+  {
+    emailFrom: 'yournamehere@gmail.com',
+    subject: 'Recipe!',
+    message: 'Hey mom, I have a quick recipe that I think you would love to cook. I made it last week!',
+    timeStamp: '3:55 PM February 13, 2019',
+    location: 'inbox'
+  },
+  {
+    emailFrom: 'thisisyourname@gmail.com',
+    subject: 'How are you!',
+    message: 'Hey sweetie! I have been thinking about you. I hope you are well!',
+    timeStamp: '2:27 PM August 14, 2023',
+    location: 'draft'
+  },
+  {
+    emailFrom: 'givemeyourmoney@gmail.com',
+    subject: 'This is not a scam!',
+    message: 'This is the last chance for you to win big prizes! Please enter you credit card information so you can get your prize!',
+    timeStamp: '2:04 AM July 14, 2000',
+    location: 'junk'
+  }
+];
+
+console.log(emailInfo2);
