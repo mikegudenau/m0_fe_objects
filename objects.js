@@ -13,19 +13,22 @@ var foods = {
 
 // Write code that prints all of the 'keys' of the foods variable 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.keys(foods));
 
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(foods));
+
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(foods)[1]);
+
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
-// YOUR CODE HERE
+foods.pears = 37;
+console.log(foods);
 
 
 // -------------------
@@ -40,15 +43,21 @@ var foods = {
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 // Write code that logs your email object to the terminal.
-
+var emailInfo = {
+  emailFrom: 'yournamehere@gmail.com',
+  subject: 'Recipe!',
+  message: 'Hey mom, I have a quick recipe that I think you would love to cook. I made it last week!',
+  timeStamp: '3:55 PM February 13, 2019',
+  location: 'inbox'
+}
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.keys(emailInfo));
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(emailInfo));
 
 
 // -------------------
@@ -61,7 +70,7 @@ var foods = {
 // Check out the following example of an array of Instagram posts:
 
 
-var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
+// var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 
 // An Array of Objects is probably more realistic. Objects are a data type that's great
@@ -86,8 +95,8 @@ posts = [
   }
 ];
 
-console.log(posts);
-console.log(posts[0]);
+// console.log(posts);
+// console.log(posts[0]);
 
 
 // The code snippet above shows an Array with 2 elements. Each element in the Array is a 
